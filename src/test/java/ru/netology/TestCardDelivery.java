@@ -30,19 +30,4 @@ public class TestCardDelivery {
         $(byClassName("button")).click();
         $(withText("Успешно!")).waitUntil(visible, 15000);
     }
-
-//    @Test
-//    void shouldFullFormByContainer() {
-//        open("http://localhost:9999");
-//        $("[placeholder='Город']").setValue("Мо");
-//        $(withText("Смоленск")).click();
-//        $("[placeholder='Дата встречи']").click();
-//        //код для выбора даты через Календарь: +неделя к текущей дате
-//
-//        $("[name='name']").setValue("Иванов Иван");
-//        $("[name='phone']").setValue("+79999999999");
-//        $("[data-test-ad='agreement']").click();
-//        $(byClassName("button")).click();
-//        $(withText("Успешно!")).waitUntil(visible, 15000);
-//    }
 }
